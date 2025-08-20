@@ -8,6 +8,9 @@ on:
         types:
             - published
 
+permissions:
+  contents: read
+
 jobs:
     Build:
         permissions:
